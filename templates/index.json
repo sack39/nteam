@@ -80,7 +80,7 @@
       "settings": {
         "title": "NEW ARRIVALS",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>texttexttexttexttexttexttexttexttexttexttext<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "new-arrivals",
@@ -227,6 +227,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e04aca98-0dae-428e-982c-659739ae46ab": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outers"
+          }
+        },
+        "0d1bc01c-4773-48f4-8d91-d2ae1211bfbf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "goods"
+          }
+        }
+      },
+      "block_order": [
+        "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-1",
+        "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-2",
+        "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-3",
+        "0d1bc01c-4773-48f4-8d91-d2ae1211bfbf"
+      ],
+      "settings": {
+        "title": "CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -237,6 +284,7 @@
     "ca2f61d8-cec5-483f-a8ed-6b0f15b02b1f",
     "16944309147084b45e",
     "5fba238d-efa1-4e9e-b5c2-aeef233eb7db",
-    "6e1d19be-ebff-4165-966d-7d0d43d17155"
+    "6e1d19be-ebff-4165-966d-7d0d43d17155",
+    "e04aca98-0dae-428e-982c-659739ae46ab"
   ]
 }
