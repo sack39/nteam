@@ -45,7 +45,7 @@
       "settings": {
         "title": "WEEKLY RANKING TOP10",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>1週間の売れ筋アイテムをご紹介！<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "weekly-ranking-top10",
