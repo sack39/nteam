@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "HWYLY",
+            "heading": "<em>HWYLY<\/em>",
             "heading_size": "h0"
           }
         },
@@ -29,11 +29,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/FV_FV.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "scheme-875fe144-d2d8-465c-823a-22a66c890df3",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
