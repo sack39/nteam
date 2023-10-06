@@ -12,25 +12,25 @@
             "menu": "footer"
           }
         },
-        "004bf15a-8f3c-43f3-b2c8-9fb364a87aae": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "policy"
-          }
-        },
         "0e035eb3-e2a9-44f1-a1c4-49875c9fe739": {
           "type": "link_list",
           "settings": {
             "heading": "GUIDE",
             "menu": "guide"
           }
+        },
+        "004bf15a-8f3c-43f3-b2c8-9fb364a87aae": {
+          "type": "link_list",
+          "settings": {
+            "heading": "POLICY",
+            "menu": "policy"
+          }
         }
       },
       "block_order": [
         "6d8bcf5c-d1e9-4cd5-a111-1f7463409151",
-        "004bf15a-8f3c-43f3-b2c8-9fb364a87aae",
-        "0e035eb3-e2a9-44f1-a1c4-49875c9fe739"
+        "0e035eb3-e2a9-44f1-a1c4-49875c9fe739",
+        "004bf15a-8f3c-43f3-b2c8-9fb364a87aae"
       ],
       "settings": {
         "color_scheme": "background-1",
