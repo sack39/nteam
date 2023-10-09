@@ -52,6 +52,7 @@
         },
         "27271fb2-a6f6-4438-a386-cef68cebccd9": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
@@ -83,9 +84,9 @@
         "b4b85176-4f54-468b-8671-51e74afd3dbe": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row③",
-            "icon": "plane",
-            "content": "<p>ううううううううううううううううううううううううううううう<\/p>",
+            "heading": "商品のお届けについて",
+            "icon": "stopwatch",
+            "content": "<p>商品ご注文からお届けまで、およそ2週間くらいかかります。<\/p>",
             "page": ""
           }
         }
