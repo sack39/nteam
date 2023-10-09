@@ -84,9 +84,9 @@
         "b4b85176-4f54-468b-8671-51e74afd3dbe": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "商品のお届けについて",
+            "heading": "商品の発送について",
             "icon": "stopwatch",
-            "content": "<p>商品ご注文からお届けまで、およそ2週間くらいかかります。<\/p>",
+            "content": "<p>商品発送の目安は、ご注文確定からおよそ7-14営業日（土日祝日除く）を頂いております。<\/p>",
             "page": ""
           }
         }
