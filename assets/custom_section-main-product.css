@@ -1,0 +1,48 @@
+.line-description {
+    padding: 32px 0px 32px 0px;
+}
+
+.c-ask {
+    background-color: #4cc764;
+    border-radius: 10px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.c-ask__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.c-ask__icon {
+    aspect-ratio: 1/1;
+    background: no-repeat center center/cover;
+    display: block;
+    width: 40px;
+    }
+
+.c-ask__txt {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.c-ask__icon {
+    width: 60px;
+}
+
+img {
+    border: none;
+    vertical-align: bottom;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
