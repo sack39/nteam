@@ -1,0 +1,142 @@
+<ul class="bottom-menu">
+
+	<li>
+		<a href="/">
+			<span class="icon-wrapper">{% render 'icon-home' %}</span>
+			<span class="text">ホーム</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="/collections/all">
+			<span class="icon-wrapper">{% render 'icon-hamburger' %}</span>
+			<span class="text">商品一覧</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="/search">
+			<span class="icon-wrapper">
+				<svg class="icon icon-search">
+					<use href="#icon-search">
+				</svg>
+			</span>
+			<span class="text">探す</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="/cart">
+			<span class="icon-wrapper cart-count-bubble2-base">
+				{% if cart == empty %}
+					{% render 'icon-cart-empty2' %}
+				{% else %}
+					{% render 'icon-cart2' %}
+				{% endif %}
+        {%- if cart != empty -%}
+          <div class="cart-count-bubble2">
+            {%- if cart.item_count < 100 -%}
+              <span aria-hidden="true">{{ cart.item_count }}</span>
+            {%- endif -%}
+            <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+          </div>
+        {%- endif -%}
+			</span>
+			<span class="text">カート</span>
+
+		</a>
+	</li>
+
+	<li>
+		<a href="/account">
+			<span class="icon-wrapper">{% render 'icon-account' %}</span>
+			<span class="text">マイページ</span>
+		</a>
+	</li>
+
+</ul>
+
+<style>
+  .bottom-menu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    border-top: 1px solid #dbdbdb;
+    background-color: #FFF;
+    z-index:30;
+  }
+  .bottom-menu li {
+    list-style-type: none;
+    text-align: center;
+    width: 20%;
+    height: 70px;
+  }
+  .bottom-menu li a {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .bottom-menu li a .icon-wrapper {
+    margin: auto;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+  }
+  .bottom-menu li a .icon-wrapper svg {
+
+    height: 28px;
+    width: 28px;
+  }
+  .bottom-menu li a .text {
+    font-size: 14px;
+  }
+  .cart-count-bubble2-base {footer-menu-sp.liquid
+    position: relative;
+  }
+  .cart-count-bubble2 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgb(var(--color-button));
+    color: rgb(var(--color-button-text));
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    line-height: calc(1 + 0.1 / var(--font-body-scale));
+  }
+
+	@media(min-width: 768px) {
+    .bottom-menu {
+      display: none;
+    }
+  }
+</style>
+
+
+{% schema %}
+  {
+    "name": "スマホ用タブメニュー",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+    ],
+    "presets": [
+      {
+        "name": "スマホ用タブメニュー"
+      }
+    ]
+  }
+{% endschema %}
