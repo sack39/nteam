@@ -2,16 +2,14 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "fb38dcd6-66b0-42d6-8bc9-5b6ef0031395": {
+      "type": "footer-menu-sp",
+      "settings": {
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
-        "308afb2e-479a-4d51-8cf9-f7cfe3716846": {
-          "type": "text",
-          "settings": {
-            "heading": "ABOUT HWYLY",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
         "6d8bcf5c-d1e9-4cd5-a111-1f7463409151": {
           "type": "link_list",
           "settings": {
@@ -35,7 +33,6 @@
         }
       },
       "block_order": [
-        "308afb2e-479a-4d51-8cf9-f7cfe3716846",
         "6d8bcf5c-d1e9-4cd5-a111-1f7463409151",
         "0e035eb3-e2a9-44f1-a1c4-49875c9fe739",
         "004bf15a-8f3c-43f3-b2c8-9fb364a87aae"
@@ -57,6 +54,7 @@
     }
   },
   "order": [
+    "fb38dcd6-66b0-42d6-8bc9-5b6ef0031395",
     "footer"
   ]
 }

@@ -38,6 +38,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "ask-via-line": {
+          "type": "ask-via-line",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -52,6 +57,7 @@
         },
         "27271fb2-a6f6-4438-a386-cef68cebccd9": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
@@ -65,27 +71,36 @@
         "677c7fc3-1632-49a8-b098-c75c1336d2ad": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row①",
-            "icon": "clipboard",
-            "content": "<p>あああああああああああああああああああああああああああああああ<\/p>",
+            "heading": "13,000円以上で送料無料❗",
+            "icon": "truck",
+            "content": "<p>ただいま13,000円以上で送料無料キャンペーン中です！<\/p>",
             "page": ""
           }
         },
         "5e59f5d2-3180-47f9-9529-43a4db4ae0ce": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row②",
-            "icon": "carrot",
-            "content": "<p>いいいいいいいいいいいいいいいいいいいいいいいいいいいいい<\/p>",
+            "heading": "10%OFFクーポンプレゼント✨",
+            "icon": "price_tag",
+            "content": "<p>公式LINE登録で10%OFFクーポン、Instagram登録で更に10%OFFクーポンをプレゼント致します🎫<br\/>詳しくは<a href=\"https:\/\/kids-hapandcraft.com\/pages\/insta_follow\" title=\"インスタフォロークーポン\">特設ページ<\/a>をご確認ください。<br\/>※クーポンの併用はできませんのでご注意ください！<\/p>",
             "page": ""
           }
         },
         "b4b85176-4f54-468b-8671-51e74afd3dbe": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row③",
-            "icon": "plane",
-            "content": "<p>ううううううううううううううううううううううううううううう<\/p>",
+            "heading": "商品の発送について",
+            "icon": "stopwatch",
+            "content": "<p>商品発送の目安は、ご注文確定からおよそ7-14営業日（土日祝日除く）を頂いております。<\/p>",
+            "page": ""
+          }
+        },
+        "70ec1ef3-5270-423d-9b70-de20fd080ccb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "商品交換について",
+            "icon": "return",
+            "content": "<p>弊社で不良品と判断した場合、交換及び返品返金のご対応をさせていただきます。<br\/>届いた商品がイメージと違うと言った理由での返品はご対応できませんのでご注意ください。<\/p>",
             "page": ""
           }
         }
@@ -97,12 +112,14 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "ask-via-line",
         "description",
         "share",
         "27271fb2-a6f6-4438-a386-cef68cebccd9",
         "677c7fc3-1632-49a8-b098-c75c1336d2ad",
         "5e59f5d2-3180-47f9-9529-43a4db4ae0ce",
-        "b4b85176-4f54-468b-8671-51e74afd3dbe"
+        "b4b85176-4f54-468b-8671-51e74afd3dbe",
+        "70ec1ef3-5270-423d-9b70-de20fd080ccb"
       ],
       "settings": {
         "enable_sticky_info": true,

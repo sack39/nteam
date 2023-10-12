@@ -13,6 +13,7 @@
   {%- if product.quantity_price_breaks_configured? -%}
     {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
+  {{ 'custom_section-main-product.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -424,6 +425,20 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+
+
+            {%- when 'ask-via-line' -%}
+              <div class="line-description">
+                <p>商品のサイズ感や質感などのご不明点がございましたら、お気軽にLINE相談にてご質問ください。</p>
+                <div class="c-ask">
+                  <a href="{{ block.settings.ask-via-line-text }}" class="c-ask__link" target="_blank">
+                    <img class="c-ask__icon" src="{{ 'icon-line.webp' | asset_url }}">
+                    <p class="c-ask__txt">LINEで質問</p>
+                  </a>
+                </div>
+              </div>
+
+
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
@@ -834,7 +849,7 @@
     {
       "type": "buy_buttons",
       "name": "t:sections.main-product.blocks.buy_buttons.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "checkbox",
@@ -849,6 +864,19 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_gift_card_recipient.info"
+        }
+      ]
+    },
+    {
+      "type": "ask-via-line",
+      "name": "LINEで質問",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "ask-via-line-text",
+          "label": "LINE追加URLリンク",
+          "default": "https://lin.ee/xxxxxxxxx"
         }
       ]
     },
