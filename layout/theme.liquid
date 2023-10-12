@@ -337,8 +337,12 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+    {{ 'footer.js' | asset_url | script_tag }}
+
+
     {% if template contains 'index' %}
       {% render 'line-pop' %}
     {% endif %}
+
   </body>
 </html>
