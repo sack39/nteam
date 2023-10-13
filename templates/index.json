@@ -43,8 +43,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "WEEKLY RANKING TOP10",
-        "heading_size": "h1",
+        "title": "RANKING TOP10",
+        "heading_size": "h2",
         "description": "<p>売れ筋アイテムをご紹介！<\/p>",
         "show_description": false,
         "description_style": "body",
