@@ -234,8 +234,8 @@
     "5fba238d-efa1-4e9e-b5c2-aeef233eb7db": {
       "type": "featured-collection",
       "settings": {
-        "title": "Goods",
-        "heading_size": "h1",
+        "title": "GOODS",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
