@@ -81,7 +81,7 @@
     "2080de92-c8b9-4663-8240-46e9e231c1c7": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center;}"
+
       ],
       "settings": {
         "title": "スタッフのおすすめ商品",
