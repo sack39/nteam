@@ -687,6 +687,7 @@
   .c-about__sns svg {
     font-size: 32px;
     padding: 8px;
+    height: 1em;
   }
   .p-footer__upper {
     -webkit-box-orient: vertical;
