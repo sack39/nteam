@@ -43,7 +43,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center;}"
+
       ],
       "settings": {
         "title": "RANKING TOP10",
@@ -112,7 +112,7 @@
     "ca2f61d8-cec5-483f-a8ed-6b0f15b02b1f": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center;}"
+
       ],
       "settings": {
         "title": "NEW ARRIVALS",
