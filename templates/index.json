@@ -242,7 +242,7 @@
             "rempro_block_title_size": 24,
             "rempro_block_columns": 4,
             "rempro_block_product_image_fit": "contain",
-            "rempro_block_product_image_height": 800,
+            "rempro_block_product_image_height": 350,
             "rempro_block_product_title_size": 16,
             "rempro_block_product_title_length": 20,
             "show_tax": false,
