@@ -215,6 +215,9 @@
         "template--21373174513974__e04aca98-0dae-428e-982c-659739ae46ab-featured_collection-3",
         "0d1bc01c-4773-48f4-8d91-d2ae1211bfbf"
       ],
+      "custom_css": [
+        ".collection-list_title {text-align: center;}"
+      ],
       "settings": {
         "title": "CATEGORY",
         "heading_size": "h1",
