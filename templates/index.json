@@ -66,7 +66,7 @@
         "show_rating": true,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 36
       }
@@ -216,11 +216,11 @@
         "0d1bc01c-4773-48f4-8d91-d2ae1211bfbf"
       ],
       "custom_css": [
-        ".collection-list_title {text-align: center;}"
+        ".collection-list-title {margin: 0 auto;}"
       ],
       "settings": {
         "title": "CATEGORY",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "",
