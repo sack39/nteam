@@ -234,12 +234,12 @@
     "5fba238d-efa1-4e9e-b5c2-aeef233eb7db": {
       "type": "featured-collection",
       "settings": {
-        "title": "GOODS",
+        "title": "TOOPS",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "goods",
+        "collection": "tops",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
