@@ -1,0 +1,26 @@
+
+/*===================================================
+# news
+===================================================*/
+.p-news {
+  background-color: #B2A59A;
+  margin-top: 40px;
+}
+
+.p-news__list {
+  margin: 40px auto 0;
+  max-width: 357px;
+  width: 100%;
+}
+
+/*===================================================
+# section
+===================================================*/
+.p-section__inner {
+  padding: 40px 0;
+}
+
+.p-section__title {
+  font-size: 20px;
+  text-align: center;
+}
