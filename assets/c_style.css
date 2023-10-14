@@ -153,10 +153,6 @@ a:hover {
   row-gap: 16px;
 }
 
-.c-info__item {
-  list-style-type: none;
-}
-
 .c-info__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,7 +171,6 @@ a:hover {
   letter-spacing: 0.1em;
   overflow-wrap: anywhere;
   width: 100%;
-  margin: 0 0;
 }
 
 .c-coupon:hover {
@@ -350,109 +345,11 @@ a:hover {
   row-gap: 1.25em;
 }
 
-/*===================================================
-# news
-===================================================*/
-.p-news {
-  background-color: #B2A59A;
-  margin-top: 40px;
-}
-
-.p-news__list {
-  margin: 40px auto 0;
-  max-width: 357px;
-  width: 100%;
-}
-
-/*===================================================
-# section
-===================================================*/
-.p-section__inner {
-  padding: 40px 0;
-}
-
-.p-section__title {
-  font-size: 20px;
-  text-align: center;
-}
-
-/*===================================================
-# fv
-===================================================*/
-.p-fv {
-  background: url(../img/img-fv.webp) no-repeat center center;
-  background-size: cover;
-  height: 40vw;
-  position: relative;
-}
-
-.p-fv__logo {
-  content: "";
-  height: 93px;
-  left: 50%;
-  position: absolute;
-  position: absolute;
-  top: 7.64vw;
-  width: 238px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-.p-fv__logo img {
-  width: 100%;
-}
-
-/*===================================================
-# footer
-===================================================*/
-.p-footer__upper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.p-footer__downer {
-  margin-top: 32px;
-}
-.p-footer__downer > :nth-child(2) {
-  margin-top: 16px;
-}
-
-.p-footer__block--first {
-  max-width: 374px;
-  width: 100%;
-}
-.p-footer__block--first > :nth-child(2) {
-  margin-top: 100px;
-}
-
-.p-footer__payment {
-  background-color: skyblue;
-  margin-left: auto;
-  max-width: 100%;
-  padding: 8px;
-  width: 400px;
-}
-
-.p-footer__coupon {
-  display: grid;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.p-footer__copy {
-  margin-top: 2em;
-  text-align: center;
-}
-
 /*
  * 非表示
  */
 
-.u-icon--line {
+ .u-icon--line {
   background-image: url(../img/icon-line.webp);
 }
 
@@ -481,6 +378,7 @@ a:hover {
   .c-about__sns svg {
     font-size: 32px;
     padding: 8px;
+    height: 1em;
   }
   .p-news__list {
     padding: 0 24px;
