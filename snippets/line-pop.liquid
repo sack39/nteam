@@ -23,6 +23,10 @@
     border-radius: 6px;
 }
 
+.when-it-open {
+    bottom: -200px;
+}
+
 .line-frame {
     border: 1px solid #4cc764;
     border-radius: 10px;
@@ -55,9 +59,7 @@
     width: 56px;
 }
 
-.when-it-open {
-    bottom: -200px;
-}
+
 
 .line-pop__logo--notice {
     position: absolute;
@@ -93,13 +95,16 @@ a {
         bottom: 120px;
         right: 20px;
     }
+    .when-it-open {
+        bottom: -200px;
+    }
 }
 
 </style>
 
 
 <script>
-{
+document.addEventListener('DOMContentLoaded', function() {
     const lineNotice = document.getElementById('lineNotice');
     const lineBox = document.getElementById('linebox');
 
@@ -117,5 +122,5 @@ a {
     lineBox.addEventListener('click', () => {
         lineNotice.classList.add('no_notice');
     });
-}
+});
 </script>
