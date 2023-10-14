@@ -151,6 +151,7 @@ a:hover {
 .c-info__list {
   display: grid;
   row-gap: 16px;
+  list-style: none;
 }
 
 .c-info__link {
@@ -171,6 +172,7 @@ a:hover {
   letter-spacing: 0.1em;
   overflow-wrap: anywhere;
   width: 100%;
+  margin: 0;
 }
 
 .c-coupon:hover {
