@@ -6,7 +6,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1300,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -221,7 +221,7 @@
         "settings": {
           "background": "#f29a30",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#f29a30",
           "button_label": "#ffffff",
           "secondary_button_label": "#f29a30",
