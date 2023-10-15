@@ -8,3 +8,8 @@
   display: flex;
   justify-content: center;
 }
+
+.banner__media>img {
+    margin: auto;
+  display: block;
+}
