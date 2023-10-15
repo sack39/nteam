@@ -1,7 +1,7 @@
 .banner__media {
   max-width: 1200px;
-  text-align: center;
-  margin: 0 auto;
+  text-align: center!important;
+  margin: 0 auto!important;
 }
 
 .banner--content-align-center {
