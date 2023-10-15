@@ -1,5 +1,11 @@
 .banner__media {
   max-width: 1200px;
-  text-align: center;
 }
+
+.banner__media img {
+  display: block;
+  margin:auto;
+}
+
+
 
