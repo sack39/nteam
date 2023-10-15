@@ -159,6 +159,14 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "17283525856706501396": {
+        "type": "shopify:\/\/apps\/crm-plus-on-line\/blocks\/associate-id-banner\/dfcb190e-14c5-48cb-b5be-c67ed2b16b21",
+        "disabled": false,
+        "settings": {
+          "message": "",
+          "bannerPosition": "right-bottom"
+        }
       }
     },
     "color_schemes": {
