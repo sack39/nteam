@@ -1,5 +1,5 @@
 <div id="linebox" class="line-pop when-it-open">
-    <a href="https://lin.ee/xxxxxxxxx"  id="linebox" class="c-coupon__link" target="_blank">
+    <a href="https://lin.ee/3EHQbl4"  id="linebox" class="c-coupon__link" target="_blank">
         <div class="line-frame">
             <p class="line-txt">10%OFFクーポンGET</p>
         </div>
@@ -21,6 +21,10 @@
     align-items: center;
     transition: 2s;
     border-radius: 6px;
+}
+
+.when-it-open {
+    bottom: -200px;
 }
 
 .line-frame {
@@ -55,9 +59,7 @@
     width: 56px;
 }
 
-.when-it-open {
-    bottom: -200px;
-}
+
 
 .line-pop__logo--notice {
     position: absolute;
@@ -90,8 +92,11 @@ a {
     .line-pop {
         position: fixed;
         z-index: 400;
-        bottom: 64px;
+        bottom: 120px;
         right: 20px;
+    }
+    .when-it-open {
+        bottom: -200px;
     }
 }
 
@@ -99,7 +104,7 @@ a {
 
 
 <script>
-{
+document.addEventListener('DOMContentLoaded', function() {
     const lineNotice = document.getElementById('lineNotice');
     const lineBox = document.getElementById('linebox');
 
@@ -117,5 +122,5 @@ a {
     lineBox.addEventListener('click', () => {
         lineNotice.classList.add('no_notice');
     });
-}
+});
 </script>
