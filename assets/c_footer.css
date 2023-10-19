@@ -249,11 +249,12 @@
   }
 }
 
-@media screen and (min-width: 750px) {
-.grid--4-col-tablet .grid__item {
+
+@media screen and (min-width: 768px) {
+  .footer-block.grid__item.footer-block--menu.scroll-trigger.animate--slide-in {
     width: calc(15% - var(--grid-desktop-horizontal-spacing) * 9 / 10);
-    margin-left: 20px;
-}
+    margin-left: 21px;
+  }
 }
 
 
