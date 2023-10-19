@@ -383,6 +383,7 @@ a:hover {
     height: 1em;
   }
   .p-news__list {
+    max-width: 384px; /*追記*/
     padding: 0 24px;
   }
   .p-fv {
@@ -403,16 +404,7 @@ a:hover {
   .p-footer__block--first > :nth-child(2) {
     margin-top: 3em;
   }
-  .p-footer__block-body {
-    max-height: 0; /* 閉じている時はmax-heightを0に */
-    overflow: hidden; /* 子要素が領域外に出た場合に隠す */
-    -webkit-transition: max-height 0.3s linear, margin-top 0.3s linear;
-    transition: max-height 0.3s linear, margin-top 0.3s linear; /* max-heightの変化にアニメーション効果を追加 */
-  }
-  .is-open .p-footer__block-body {
-    margin-top: 32px;
-    max-height: 550px;
-  }
+
   .p-footer__block-ttl {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -447,9 +439,7 @@ a:hover {
   .p-footer__sns {
     margin-top: 24px;
   }
-  .p-footer__block-body .p-footer__sns {
-    text-align: center;
-  }
+ 
   .p-footer__payment {
     width: 100%;
   }
@@ -459,9 +449,6 @@ a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .p-footer__block-body {
-    margin-top: 32px;
-  }
   .u-hidden-pc {
     display: none;
   }

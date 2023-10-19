@@ -188,16 +188,19 @@
   .p-footer__block--first > :nth-child(2) {
     margin-top: 3em;
   }
-  .p-footer__block-body {
-    max-height: 0; /* 閉じている時はmax-heightを0に */
-    overflow: hidden; /* 子要素が領域外に出た場合に隠す */
-    -webkit-transition: max-height 0.3s linear, margin-top 0.3s linear;
-    transition: max-height 0.3s linear, margin-top 0.3s linear; /* max-heightの変化にアニメーション効果を追加 */
-  }
-  .is-open .p-footer__block-body {
-    margin-top: 32px;
-    max-height: 550px;
-  }
+
+  @media screen and (max-width: 767px) {
+    .p-footer__block-body {
+      max-height: 0; /* 閉じている時はmax-heightを0に */
+      overflow: hidden; /* 子要素が領域外に出た場合に隠す */
+    }}
+
+    @media screen and (max-width: 767px) {
+      .is-open .p-footer__block-body {
+        margin-top: 32px;
+        max-height: 550px;
+      } }
+      
   .p-footer__block-ttl {
     display: -webkit-box;
     display: -ms-flexbox;
