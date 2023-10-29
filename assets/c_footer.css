@@ -1,6 +1,8 @@
 /*===================================================
 # footer
 ===================================================*/
+
+
 .p-footer__upper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,11 +81,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .c-about__ttl {
@@ -96,9 +98,16 @@
 }
 .c-about__sns svg {
   cursor: pointer;
-  font-size: 20px;
   padding: 4px;
+  width: 30px;
 }
+
+
+
+
+
+
+
 .c-about__body .c-about__sns {
   margin-top: 2em;
 }
@@ -112,57 +121,13 @@
   font-size: 10px;
 }
 
-.c-nav__list {
+/* .c-nav__list {
   display: grid;
   row-gap: 1.25em;
-}
+} */
 
-.c-coupon:hover {
-  opacity: 0.6;
-}
 
-.c-coupon__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: 172px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
 
-.c-coupon__link:hover {
-  opacity: 1;
-}
-
-.c-coupon__frame {
-  border: 1px solid #4cc764;
-  border-radius: 10px;
-  color: #4cc764;
-  height: 38px;
-  line-height: 38px;
-  width: 168px;
-}
-
-.c-coupon__txt {
-  color: #4cc764;
-  font-size: 10px;
-  font-weight: 700;
-  padding: 0 8px;
-}
-
-.c-coupon__icon {
-  aspect-ratio: 1/1;
-  background: no-repeat center center/cover;
-  display: block;
-  position: absolute;
-  right: 0;
-  width: 50px;
-}
 
 
 @media screen and (max-width: 767px) {
@@ -189,18 +154,16 @@
     margin-top: 3em;
   }
 
-  @media screen and (max-width: 767px) {
-    .p-footer__block-body {
-      max-height: 0; /* 閉じている時はmax-heightを0に */
-      overflow: hidden; /* 子要素が領域外に出た場合に隠す */
-    }}
+  .p-footer__block-body {
+    max-height: 0; /* 閉じている時はmax-heightを0に */
+    overflow: hidden; /* 子要素が領域外に出た場合に隠す */
+  }
 
-    @media screen and (max-width: 767px) {
-      .is-open .p-footer__block-body {
-        margin-top: 32px;
-        max-height: 550px;
-      } }
-      
+  .is-open .p-footer__block-body {
+    margin-top: 32px;
+    max-height: 550px;
+  }
+
   .p-footer__block-ttl {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -208,14 +171,15 @@
     padding: 1em 0;
     position: relative;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
+    -ms-flex-pack: justify;
     border-top: 1px solid #B2A59A;
     cursor: pointer;
-            justify-content: space-between;
+    justify-content: space-between;
   }
+
   .p-footer__block-ttl::after {
     aspect-ratio: 1/1;
     border-left: 2px solid #B2A59A;
@@ -228,24 +192,30 @@
     right: 1em;
             transform: rotate(225deg);
   }
+
   .is-open .p-footer__block-ttl::after {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
   }
+
   .p-footer__sns {
     margin-top: 24px;
   }
+
   .p-footer__block-body .p-footer__sns {
     text-align: center;
   }
+
   .p-footer__payment {
     width: 100%;
   }
-}
 
-@media screen and (min-width: 768px) {
   .p-footer__block-body {
     margin-top: 32px;
+  }
+
+  .u-hidden-sp {
+    display: none;
   }
 }
 
@@ -257,3 +227,6 @@
 }
 
 
+.u-hidden-pc {
+  display: none;
+}
